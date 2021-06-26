@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # Currency converter
 ## Demo 
-https://justynapawlik.github.io/react-currency-converter/
+https://justynapawlik.github.io/currencyConverter-react/
 ### Description
 This application convert PLN cureency into EUR, USD and GBP currency
 
