@@ -1,13 +1,18 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+html {
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*, ::after, ::before {
+  box-sizing: inherit;
+}
+
+body {
+  background-image: url(https://www.kobiecybialystok.pl/wp-content/uploads/2019/09/poradyprawne.jpg);
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 10px 10px;
+  font-size: 24px;
+  margin: 0 auto;
 }

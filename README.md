@@ -2,6 +2,35 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Currency converter
+## Demo 
+https://justynapawlik.github.io/react-currency-converter/
+### Description
+This application convert PLN cureency into EUR, USD and GBP currency
+
+## How it works
+1. Enter an amount of money (e.g. '1000') 
+2. Choose the currency 
+3. Click "Przelicz kurs"
+4. The application  then calculates and displays the corresponding amount of money
+5. Click "Wyczyść" to reset the amount
+
+![application](public/Animation.gif)
+
+## Technologies
+- HTML
+- CSS
+- REACT JS
+- FLEX
+- GRID
+- IMMUTABILITY
+- CREATE-REACT-APP
+- CUSTOM HOOKS
+- MEDIA QUERIES
+- STYLED-COMPONENTS
+- BABEL
+- WEBPACK 
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -13,11 +42,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
@@ -39,11 +63,6 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
 
 ### Code Splitting
 
