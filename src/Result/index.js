@@ -1,4 +1,4 @@
-import { FormResult } from "./styled";
+import { FormResult, } from "./styled";
 
 export const Result = ({ result }) => (
     <FormResult>

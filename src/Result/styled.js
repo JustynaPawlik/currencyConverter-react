@@ -12,9 +12,8 @@ export const FormResult = styled.p`
     padding: 40px;
     }
 
-@media (max-width: ${({ theme }) => theme.breakpoint.mobile}px) {
+@media(max-width: ${({ theme }) => theme.breakpoint.mobile}px) {
       max-width: 90%;
       font-size: 12px;
-    }
 }
 `;
