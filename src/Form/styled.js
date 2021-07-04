@@ -13,10 +13,9 @@ export const FormFieldset = styled.fieldset`
     border-radius: 20px;
 }
   
-@media (max-width: ${({ theme }) => theme.breakpoint.mobile}px) {
+@media(max-width: ${({ theme }) => theme.breakpoint.mobile}px) {
       max-width: 90%;
       font-size: 12px; 
-    }
 }
 `;
 
@@ -56,4 +55,12 @@ export const FormButton = styled.button`
     &: active {
     background-color: ${({ theme }) => theme.color.activeTeal};
   }
+`;
+
+export const Loading = styled.p`
+color: ${({ theme }) => theme.color.teal};
+`;
+
+export const Failure = styled.p`
+color: ${({ theme }) => theme.color.crimson};
 `;

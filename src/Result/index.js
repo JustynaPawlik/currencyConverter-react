@@ -1,4 +1,4 @@
-import { FormResult } from "./styled";
+import { FormResult, SourceRates } from "./styled";
 
 export const Result = ({ result }) => (
     <FormResult>
@@ -9,6 +9,7 @@ export const Result = ({ result }) => (
                 <strong>
                     {result.targetAmount.toFixed(2)}&nbsp;{result.currency}
                 </strong>
+                <SourceRates>Kursy walut pobierane są z Europejskiego Banku Centralnego na aktualny dzień.</SourceRates>
             </>
         )}
     </FormResult>

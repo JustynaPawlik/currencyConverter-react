@@ -12,9 +12,18 @@ export const FormResult = styled.p`
     padding: 40px;
     }
 
-@media (max-width: ${({ theme }) => theme.breakpoint.mobile}px) {
+@media(max-width: ${({ theme }) => theme.breakpoint.mobile}px) {
       max-width: 90%;
       font-size: 12px;
+}
+`;
+
+export const SourceRates = styled.p` 
+    font-size: 14px;
+    color: ${({ theme }) => theme.color.teal};
     }
+
+@media(max-width: ${({ theme }) => theme.breakpoint.mobile}px) {
+    font-size: 8px;
 }
 `;
