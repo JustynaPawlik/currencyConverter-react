@@ -5,6 +5,7 @@ export const theme = {
         lightTeal: "hsl (180, 100%, 30%)",
         activeTeal: "hsl (180, 100%, 60%)",
         boxShadow: "hsl(208, 79%, 29%)",
+        crimson: "#db143c",
     },
     breakpoint: {
         mobile: 767

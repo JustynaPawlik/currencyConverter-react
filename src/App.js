@@ -1,4 +1,3 @@
-import { useState } from "react";
 import Form from "./Form";
 import Container from "./Container";
 import { Result } from "./Result";
