@@ -31,7 +31,7 @@ This application convert PLN cureency into foreign currenciec with API.
 - BABEL
 - WEBPACK 
 - HOOKS: useState, useEffect
-- FETCH
+- AXIOS
 
 ## Available Scripts
 
