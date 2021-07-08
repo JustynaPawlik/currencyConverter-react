@@ -11,9 +11,7 @@ function App() {
     <ThemeProvider theme={theme}>
       <GlobalStyle />
       <Container>
-        <div>
           <Form />
-        </div>
       </Container>
     </ThemeProvider>
   );
