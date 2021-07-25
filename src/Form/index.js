@@ -1,9 +1,7 @@
 import { useState } from "react";
-import { FormFieldset, Header, FormButton, Loading, Failure } from "./styled";
+import { FormFieldset, Header, FormButton, Loading, Failure, Input } from "./styled";
 import { Result } from "../Result";
-import Container from "../Container";
 import { Clock } from "../Clock";
-import axios from "axios";
 import { useRatesData } from "../useRatesData";
 
 export const Form = () => {
@@ -21,7 +19,7 @@ export const Form = () => {
     }
 
     const [currency, setCurrency] = useState("EUR");
-    const [amount, setAmount] = useState();
+    const [amount, setAmount] = useState("");
 
     const onSubmit = (event) => {
         event.preventDefault();
@@ -31,7 +29,8 @@ export const Form = () => {
     return (
         <form onSubmit={onSubmit} >
             <FormFieldset>
-                <Header>kantor
+                <Header>
+                    kantor
                 </Header>
                 {ratesData.state === "loading"
                     ? (
@@ -49,13 +48,13 @@ export const Form = () => {
                                 <Clock />
                                 <label>
                                     <span>Kwota do wymiany (PLN)*&nbsp;</span>
-                                    <input
+                                    <Input
                                         value={amount}
                                         onChange={({ target }) => setAmount(target.value)}
                                         type="number"
                                         step="any"
-                                        placeholder="Wpisz kwotę..."
                                         min="1"
+                                        placeholder="Wpisz kwotę..."
                                         required
                                     />
                                 </label>

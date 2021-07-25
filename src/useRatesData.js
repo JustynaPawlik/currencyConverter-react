@@ -1,4 +1,3 @@
-
 import { useEffect, useState } from "react";
 import axios from "axios";
 
@@ -6,12 +5,10 @@ export const useRatesData = () => {
     const [ratesData, setRatesData] = useState({
         state: "loading",
     });
-    
 
     useEffect(() => {
         const getRatesData = () => {
             axios({
-                method: "GET",
                 url: ("https://api.exchangerate.host/latest?base=PLN")
             })
                 .then(response => {

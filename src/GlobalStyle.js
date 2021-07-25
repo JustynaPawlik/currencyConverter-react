@@ -19,4 +19,7 @@ html {
     font-size: 24px;
     margin: 0 auto;
   }
+  @media(max-width: ${({ theme }) => theme.breakpoint.mobile}px) {
+    padding: 0px;
+}
 `;
